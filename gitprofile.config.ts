@@ -40,25 +40,27 @@ const CONFIG = {
       header: 'My Projects',
       projects: [
         {
-          title: 'Plunger Lift Optimization – Qult.ai',
+          title: 'Plunger Lift Optimization – Qult',
+          link: 'plungerlift.qult.ai',
           description:
-            'At Qult.ai, developed an AI-driven asset-optimization system to optimize plunger lift operations by analyzing real-time well telemetry and historical production data. Leveraging machine learning and time-series forecasting, the solution improves cycle timing, reduces downtime, and extends equipment life, supported by interactive dashboards for performance monitoring.',
+            'At Qult Technologies, developed an AI-driven asset-optimization system to optimize plunger lift operations by analyzing real-time well telemetry and historical production data. Leveraging machine learning and time-series forecasting, the solution improves cycle timing, reduces downtime, and extends equipment life, supported by interactive dashboards for performance monitoring.',
           
         },
         {
-          title: 'Sand Extraction Automation – Qult.ai',
+          title: 'Sand Extraction Automation – Qult',
           description:
             'At Qult.ai, built a computer vision-based solution for automating sand removal in oil operations using thermal imaging. The system detects sand build-up through heat pattern anomalies and triggers automated cleaning, improving safety, reducing manual inspections, and preventing equipment failures.',
           
         },
         {
-          title: 'Lease Bot – AiBee.pk',
+          title: 'Lease Bot – AiBee',
+          link: 'https://abstria-dev.azurewebsites.net/',
           description:
             'At AiBee.pk, created an AI-powered platform to automate the extraction, summarization, and amendment tracking of complex lease documents. Utilizing advanced NLP and LLMs, the system processes scanned or digital agreements, structures key clauses, and dynamically updates abstracts, significantly reducing manual review time while ensuring accuracy and compliance.',
           
         },
         {
-          title: 'Hawk AI – AiBee.pk',
+          title: 'Hawk AI – AiBee',
           description:
             'At AiBee.pk, developed a custom computer vision model for detecting impurities on tobacco conveyor belts, combining object detection and segmentation techniques. Integrated with a robotic arm for automated impurity removal, enhancing quality control and reducing manual intervention.',
         },
@@ -73,7 +75,7 @@ const CONFIG = {
             'Developed a fully functional rover from scratch, handling both hardware and software aspects. Built a custom LiDAR system for obstacle detection and distance measurement, integrated with PWM motor control, sensors, and AI-based navigation algorithms.',
         },
         {
-          title: 'Embedded AI on Hat Devices',
+          title: 'Distribued Embedded AI on Hat Devices',
           description:
             'Worked with Raspberry Pi and microcontrollers to deploy lightweight deep learning models for edge computing, enabling real-time AI processing directly on resource-constrained devices.',
         },
@@ -110,7 +112,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/13IAkROTEB0dlrsvE6G2v3zqv_KKqc1hw/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
+      'https://www.linkedin.com/in/as0167/', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     "Computer Vision",
@@ -168,43 +170,57 @@ const CONFIG = {
 experiences : [
   {
     company: 'Qult Technologies',
-    position: 'AI/ML Engineer (Internship)',
+    position: 'AI/ML Automation Engineer | Lead Software Engineer',
     from: 'June 2025',
     to: 'Present',
     companyLink: 'https://qult.ai'
   },
   {
+    company: 'Information Technology University',
+    position: 'Teaching Assistant - ML Ops',
+    from: 'January 2026',
+    to: 'June 2026',
+    companyLink: 'https://itu.edu.pk/'
+  },
+  {
     company: 'AiBee.pk',
-    position: 'AI & Backend Developer (Internship)',
+    position: 'AI Engineer | Backend Developer',
     from: 'January 2025',
-    to: 'Present',
+    to: 'January 2026',
     companyLink: 'https://aibee.pk/'
   },
   {
-    company: 'Google Developer Student Club - Information Technology University, Pakistan',
-    position: 'Dev/Tech Team Lead',
-    from: 'November 2024',
-    to: 'Present',
-    companyLink: 'https://gdg.community.dev/gdg-on-campus-information-technology-university-lahore-pakistan/'
+    company: 'Information Technology University',
+    position: 'Teaching Assistant - Data Structures and Algorithms',
+    from: 'August 2025',
+    to: 'December 2025',
+    companyLink: 'https://itu.edu.pk/'
   },
   {
     company: 'Google Developer Student Club - Information Technology University, Pakistan',
-    position: 'Secretary General | Co Lead Dev/Tech Team and CP Team',
-    from: 'October 2024',
-    to: 'October 2024',
+    position: 'Technical Team Lead',
+    from: 'November 2024',
+    to: 'September 2025',
     companyLink: 'https://gdg.community.dev/gdg-on-campus-information-technology-university-lahore-pakistan/'
   },
   {
     company: 'Veritus Software',
-    position: 'AI & Backend Engineer (Internship)',
+    position: 'AI & Backend Engineer',
     from: 'January 2025',
     to: 'May 2025',
     companyLink: ''
   },
   {
+    company: 'Information Technology University',
+    position: 'Teaching Assistant - Data Structures and Algorithms',
+    from: 'August 2024',
+    to: 'December 2024',
+    companyLink: 'https://itu.edu.pk/'
+  },
+  {
     company: 'Veritus Software',
-    position: 'AI & Backend Engineer (Internship)',
-    from: 'July 2024',
+    position: 'AI Engineer (Internship)',
+    from: 'January 2024',
     to: 'November 2024',
     companyLink: ''
   },
